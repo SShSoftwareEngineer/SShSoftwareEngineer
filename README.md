@@ -2,24 +2,26 @@
 **SShGitHubUser/SShGitHubUser** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-## Hi there 👋
+## Мои проекты
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- [Telegram Saver](https://github.com/SShSoftwareEngineer/Telegram_Saver.git)  
+Описание проекта
+- [Coop Manager](https://github.com/SShSoftwareEngineer/Coop_Manager.git)  
+Описание проекта
+- [Djinni.co Parser](https://github.com/SShSoftwareEngineer/Djinni.co_Parser.git)  
+Описание проекта
 
-# Мои проекты
+## Сертификаты
 
-## Веб-разработка
-- [Проект 1](ссылка_на_репозиторий)
-- [Проект 2](ссылка_на_репозиторий)
+- [Python Developer Diploma](https://testprovider.com/ru/search-certificate/TP75891538D)
+  - [Python Advanced](https://testprovider.com/ru/search-certificate/TP22720228)  
+  - [Databases. PostgreSQL](https://testprovider.com/ru/search-certificate/TP96877762)
+  - [Git](https://testprovider.com/ru/search-certificate/TP29442845)
+  - [Django Starter](https://testprovider.com/ru/search-certificate/TP42857906)
+- [Databases. PostgreSQL](https://testprovider.com/ru/search-certificate/TP96877762)
+- [Databases. PostgreSQL](https://testprovider.com/ru/search-certificate/TP96877762)
 
-## Мобильная разработка
+## Мои проекты
 - [Android проект](ссылка_на_репозиторий)
 - [iOS проект](ссылка_на_репозиторий)
 
