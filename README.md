@@ -8,7 +8,7 @@
 Write a project description
 - [Coop Manager](https://github.com/SShSoftwareEngineer/Coop_Manager.git)  
 Write a project description
-- [Djinni.co Parser](https://github.com/SShSoftwareEngineer/Djinni.co_Parser.git)  
+- [Job Posting Parser](https://github.com/SShSoftwareEngineer/Job_Posting_Parser.git)  
 Write a project description
 
 ## Certificates
