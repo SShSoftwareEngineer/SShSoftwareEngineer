@@ -1,30 +1,42 @@
 <!--
-**SShGitHubUser/SShGitHubUser** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**SShGitHubUser/SShGitHubUser** is a ✨ _special_ ✨ repository because its `README.md` (this file) 
+appears on your GitHub profile.
 -->
 
 ## Projects
 
 - [Telegram Saver](https://github.com/SShSoftwareEngineer/Telegram_Saver.git)  
-Write a project description
+  Created a script that securely retrieves content (text messages, documents, media files, etc.) 
+  from specified Telegram channels and chats using the Telegram API. The data is stored in a local 
+  database for further analysis and archiving. Implemented asynchronous data retrieval to improve 
+  performance. Implemented asynchronous data retrieval to enhance performance.
 - [Coop Manager](https://github.com/SShSoftwareEngineer/Coop_Manager.git)  
-Write a project description
+  Created a web application to manage cooperative organizations, automating collective resource 
+  management, operation, and infrastructure maintenance. Implemented features of accounting for 
+  property, cooperative members, and related persons. In development – personal user account, 
+  membership fee tracking, financial accounting and reporting, announcement board, and information section.
 - [Djinni.co Parser](https://github.com/SShSoftwareEngineer/Djinni.co_Parser.git)  
-Write a project description
+  Created a script for automated parsing of job vacancy postings in Telegram. The script extracts 
+  key information from messages, follows links to obtain full text of job announcements, retrieves 
+  additional vacancy details, and stores data in a database. The solution is used for statistical 
+  analysis of job market trends, vacancies and candidate requirements.
 
 ## Certificates
 
 - [Python Developer Diploma](https://testprovider.com/ru/search-certificate/TP75891538D)
-  - [Python Advanced](https://testprovider.com/ru/search-certificate/TP22720228)  
-  - [Databases. PostgreSQL](https://testprovider.com/ru/search-certificate/TP96877762)
-  - [Git](https://testprovider.com/ru/search-certificate/TP29442845)
-  - [Django Starter](https://testprovider.com/ru/search-certificate/TP42857906)
+    - [Python Advanced](https://testprovider.com/ru/search-certificate/TP22720228)
+    - [Databases. PostgreSQL](https://testprovider.com/ru/search-certificate/TP96877762)
+    - [Git](https://testprovider.com/ru/search-certificate/TP29442845)
+    - [Django Starter](https://testprovider.com/ru/search-certificate/TP42857906)
 - [Docker](https://testprovider.com/ru/search-certificate/TP91237119)
 - [HTML5&CSS3 Starter](https://testprovider.com/ru/search-certificate/TP24404857)
 - [JavaScript Starter](https://testprovider.com/ru/search-certificate/TP13025243)
 - [C++ Starter](https://testprovider.com/ru/search-certificate/TP07430920)
 
 ## Courses
-[Python Developer by ITVDN & CyberBionic Systematics](https://github.com/Studies-in-specialty-Python-Developer)  
+
+ITVDN & CyberBionic Systematics  
+[Python Developer](https://github.com/Studies-in-specialty-Python-Developer)
 <details>
   <summary>Python Developer Study Program</summary>
 
@@ -87,6 +99,20 @@ Write a project description
 8. Django application deployment
 9. Security in Django
 10. Practical lesson. A ToDo list creation
+
+</details>
+
+
+ITVDN & CyberBionic Systematics  
+Docker
+<details>
+  <summary>Docker Study Program</summary>
+
+1. Introduction to Docker
+2. Creation of a Docker image 
+3. Running web-application in Docker
+4. Orchestration in Docker
+5. Docker tools
 
 </details>
 
