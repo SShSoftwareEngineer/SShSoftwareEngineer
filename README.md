@@ -9,7 +9,7 @@ appears on your GitHub profile.
   Created a script that securely retrieves content (text messages, documents, media files, etc.) 
   from specified Telegram channels and chats using the Telegram API. The data is stored in a local 
   database for further analysis and archiving. Implemented asynchronous data retrieval to improve 
-  performance. Implemented asynchronous data retrieval to enhance performance.
+  performance.
 - [Coop Manager](https://github.com/SShSoftwareEngineer/Coop_Manager.git)  
   Created a web application to manage cooperative organizations, automating collective resource 
   management, operation, and infrastructure maintenance. Implemented features of accounting for 
