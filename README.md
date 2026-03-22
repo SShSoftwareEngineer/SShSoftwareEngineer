@@ -10,16 +10,16 @@ appears on your GitHub profile.
   from specified Telegram channels and chats using the Telegram API. The data is stored in a local 
   database for further analysis and archiving. Implemented asynchronous data retrieval to improve 
   performance.
-- [Coop Manager](https://github.com/SShSoftwareEngineer/Coop_Manager.git)  
-  Created a web application to manage cooperative organizations, automating collective resource 
-  management, operation, and infrastructure maintenance. Implemented features of accounting for 
-  property, cooperative members, and related persons. In development – personal user account, 
-  membership fee tracking, financial accounting and reporting, announcement board, and information section.
 - [Job Posting Parser](https://github.com/SShSoftwareEngineer/Job_Posting_Parser)  
   Created a script for automated parsing of job vacancy postings in Telegram. The script extracts 
   key information from messages, follows links to obtain full text of job announcements, retrieves 
   additional vacancy details, and stores data in a database. The solution is used for statistical 
   analysis of job market trends, vacancies and candidate requirements.
+- [Coop Manager](https://github.com/SShSoftwareEngineer/Coop_Manager.git)  
+  Created a web application to manage cooperative organizations, automating collective resource 
+  management, operation, and infrastructure maintenance. Implemented features of accounting for 
+  property, cooperative members, and related persons. In development – personal user account, 
+  membership fee tracking, financial accounting and reporting, announcement board, and information section.
 
 ## Certificates
 
