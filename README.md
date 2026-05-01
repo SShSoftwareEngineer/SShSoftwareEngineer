@@ -5,7 +5,7 @@ appears on your GitHub profile.
 
 ## Projects
 
-- [Book Scraper](https://github.com/SShSoftwareEngineer/Book-Scraper.git)  
+- ### [Book Scraper](https://github.com/SShSoftwareEngineer/Book-Scraper.git)  
   Distributed web scraping system (Playwrite) with async processing and task queues.  
   Multi-stage pipeline: async scrapers collect HTML → task queue (queue.Queue or Celery) distributes to worker threads → parsers extract structured data → separate writer thread stores to PostgreSQL. Implements producer-consumer pattern, error handling, retry logic.   
   Key achievements:
@@ -14,7 +14,7 @@ appears on your GitHub profile.
   - Designed fault-tolerant pipeline with retry mechanisms
   - Optimized performance with multi-threading/multiprocessing
 ####
-- [Telegram Saver](https://github.com/SShSoftwareEngineer/Telegram_Saver.git)  
+- ### [Telegram Saver](https://github.com/SShSoftwareEngineer/Telegram_Saver.git)  
   Data extraction and storage system for Telegram content with flexible retrieval options.  
   Key features:
   - Manual and automated data extraction from Telegram channels using Telethon API
@@ -28,7 +28,7 @@ appears on your GitHub profile.
   - Organized 500+ media files with metadata
   - Database design supports easy migration to PostgreSQL for scaling
 ####
-- [Job Posting Parser](https://github.com/SShSoftwareEngineer/Job_Posting_Parser)  
+- ### [Job Posting Parser](https://github.com/SShSoftwareEngineer/Job_Posting_Parser)  
   Multi-source job market intelligence system for automated vacancy data collection and analysis.  
   Key features:
   - Dual-source data extraction: Telegram channels (Telethon) + Email newsletters (IMAPClient)
@@ -43,7 +43,7 @@ appears on your GitHub profile.
   - 18 extracted fields enable multi-dimensional filtering and analysis
   - Identified salary trends, in-demand technologies, and remote work patterns  
 ####
-- [Coop Manager](https://github.com/SShSoftwareEngineer/Coop_Manager.git)  
+- ### [Coop Manager](https://github.com/SShSoftwareEngineer/Coop_Manager.git)  
   Database design and Django backend for cooperative organization management system (garage cooperative case study).  
   Architecture & Data Model:
   - Designed normalized database schema with 8 interconnected models: Estate (garages, storage units, annexes), Person (members, family, tenants), Address, Contact, Relation (ownership, family ties, rental agreements)
