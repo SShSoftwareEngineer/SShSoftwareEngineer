@@ -5,21 +5,58 @@ appears on your GitHub profile.
 
 ## Projects
 
+- [Book Scraper](https://github.com/SShSoftwareEngineer/Book-Scraper.git)  
+  Distributed web scraping system (Playwrite) with async processing and task queues.  
+  Multi-stage pipeline: async scrapers collect HTML → task queue (queue.Queue or Celery) distributes to worker threads → parsers extract structured data → separate writer thread stores to PostgreSQL. Implements producer-consumer pattern, error handling, retry logic.   
+  Key achievements:
+  - Built distributed processing architecture with task queues
+  - Implemented async scraping with rate limiting
+  - Designed fault-tolerant pipeline with retry mechanisms
+  - Optimized performance with multi-threading/multiprocessing
+####
 - [Telegram Saver](https://github.com/SShSoftwareEngineer/Telegram_Saver.git)  
-  Created a script that securely retrieves content (text messages, documents, media files, etc.) 
-  from specified Telegram channels and chats using the Telegram API. The data is stored in a local 
-  database for further analysis and archiving. Implemented asynchronous data retrieval to improve 
-  performance.
+  Data extraction and storage system for Telegram content with flexible retrieval options.  
+  Key features:
+  - Manual and automated data extraction from Telegram channels using Telethon API
+  - SQLAlchemy ORM for database-agnostic storage (SQLite/PostgreSQL ready)
+  - Processing of multiple content types: messages, media files, documents, user info, etc.
+  - Web-based interface for saved content exploration (Flask + JavaScript)
+  - Asynchronous operations with AsyncIO for efficient data handling
+  Use case: Personal archive and data analysis tool for selective content preservation  
+  Impact: 
+  - Archived 2,000+ messages from monitored channels
+  - Organized 500+ media files with metadata
+  - Database design supports easy migration to PostgreSQL for scaling
+####
 - [Job Posting Parser](https://github.com/SShSoftwareEngineer/Job_Posting_Parser)  
-  Created a script for automated parsing of job vacancy postings in Telegram. The script extracts 
-  key information from messages, follows links to obtain full text of job announcements, retrieves 
-  additional vacancy details, and stores data in a database. The solution is used for statistical 
-  analysis of job market trends, vacancies and candidate requirements.
+  Multi-source job market intelligence system for automated vacancy data collection and analysis.  
+  Key features:
+  - Dual-source data extraction: Telegram channels (Telethon) + Email newsletters (IMAPClient)
+  - Two-stage parsing: initial posts + full vacancy details from website links (BeautifulSoup, AIOHTTP)
+  - Comprehensive data extraction: 18+ parameters per vacancy (position, salary, tech stack, location, experience, company details, etc.)
+  - Concurrent scraping with rate limiting (AsyncIO Semaphore) to avoid blocking
+  - Structured storage: SQLAlchemy ORM with SQLite (PostgreSQL-ready architecture)
+  - Excel reporting with Pandas for stakeholder analysis  
+  Use case: Job market trend analysis, salary benchmarking, technology demand tracking, career planning
+  Impact:
+  - Analyzed 3800+ job postings from multiple sources
+  - 18 extracted fields enable multi-dimensional filtering and analysis
+  - Identified salary trends, in-demand technologies, and remote work patterns  
+####
 - [Coop Manager](https://github.com/SShSoftwareEngineer/Coop_Manager.git)  
-  Created a web application to manage cooperative organizations, automating collective resource 
-  management, operation, and infrastructure maintenance. Implemented features of accounting for 
-  property, cooperative members, and related persons. In development – personal user account, 
-  membership fee tracking, financial accounting and reporting, announcement board, and information section.
+  Database design and Django backend for cooperative organization management system (garage cooperative case study).  
+  Architecture & Data Model:
+  - Designed normalized database schema with 8 interconnected models: Estate (garages, storage units, annexes), Person (members, family, tenants), Address, Contact, Relation (ownership, family ties, rental agreements)
+  - Django ORM implementation with many-to-many and foreign key relationships
+  - Flexible data model supports multiple property types and complex member relationships
+  - SQLite (development), PostgreSQL-ready architecture  
+  Current implementation:
+  - Admin interface for member and property management (Django Admin)
+  - Basic HTML templates for data viewing
+  - CRUD operations via admin panel
+  - Property assignment to members and related persons (family, tenants)  
+  Use case: Digital transformation for cooperative administration, designed as universal solution applicable to garage, housing, or agricultural cooperatives  
+  Project status: MVP/proof-of-concept demonstrating database architecture and Django backend capabilities
 
 ## Certificates
 
